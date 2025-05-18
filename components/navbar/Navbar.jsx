@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
+import Button from '../button/Button'
 
 const links = [
   {
@@ -44,7 +45,7 @@ const Navbar = () => {
             <Link key={index} href={link.url}>{link.title}</Link>
           ))
         }
-        <button className="p-[5px] bg-green-800 text-white cursor-pointer rounded-sm">Logout</button>
+        <Button url="/" text="Log out" />
       </div>
     </div>
   )
