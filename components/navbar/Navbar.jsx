@@ -44,7 +44,7 @@ const Navbar = () => {
             <Link key={index} href={link.url}>{link.title}</Link>
           ))
         }
-        <button className="p-[5px] bg-[#53c28b] text-white cursor-pointer rounded-sm">Logout</button>
+        <button className="p-[5px] bg-green-800 text-white cursor-pointer rounded-sm">Logout</button>
       </div>
     </div>
   )
